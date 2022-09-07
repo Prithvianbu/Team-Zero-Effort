@@ -1,19 +1,31 @@
-Hi guys,so this is the TinkerCAD file I have been working on. I have just started,so you will see decent amount of additions later.
+TEAM MEMBERS:
+1. Kartikeya Gupta - Mechanical Design
+2. Nitya Ahuja - Electronic Design
+3. Prithvi A - Automation
+4. Subhodeep Choudhury - Electronic Design
 
+ELECTRONICS DESIGN:
+
+Overview:
+The circuit design for the cleaning robot is implemented on tinkercad using various circuit components, which include :-
+1. 4 DC motors - one each for the left and right wheels, vacuum and mop
+2. 2 Arduinos - one for the motors that control the wheels and the other one for the vacuum and sweeping motors
+3. 2 IR Sensors - to detect sector of clean and unclean areas in front of the robot
+4. 2 L293D Motor Drivers - to power the DC motors at a volatge of 9V 
+5. 2 LCD Screens - to display the current modes the robot is operating at
+6. 2 9V Batteries - main power source of the circuit
+7. 3 Switches - to let user choose between various modes 
+8. 2 Potentiometers - to control the display on the LCD screens
+9. 2 Breadboards - to connect various circuit elements
+
+Flow Chart:
+1. Firstly, the user enters Linear and Angular velocity (that the user requires the robot to move in), in the serial monitor. LCD_1 displays "Mode:Idle", as the robot is still stationary.
+2. The line following algorithm is implemented using the two IR sensors that detect dirty parts of the room. If the user turns the switch on for motion, the robot starts to move along a planned path, at the user defined velocities. LCD_1 dsiplays "Mode:Moving" or "Mode:Turning", as the robot is now in motion.
+3. The left and right wheel of the robot are independent and move according to the user defined velocities. Wheel encoders are used to achieve this mechanism.
+4. According to the user choice (rest two switches), the robot performs vacuum and sweeping operations. This is possible both when the robot is stationary or in motion. LCD_2 displays the current operating mode of the robot (either "Vacuum" or "Sweeping").
+5. L293D motor driver is used to run the DC motors at a voltage of 9V (as opposed to the 5V suppy of the Arduino Uno), to get better rpm on the motors.
+
+Tinkercad link for the circuit design:
 https://www.tinkercad.com/things/bHDjSxqd62e-main-circuit/editel?sharecode=BIYK1kyuXOUVEbCFt69ll2PYfXAo8Fj_EPf2cEnrvMg
 
-
-
-Here are the meet links related to each domain:
-
-For electronics:
-https://meet.google.com/vsp-ehdj-gni
-
-For automation:
-
-https://meet.google.com/etx-hbqn-rof
-
-For mechanical:
-
-https://meet.google.com/yik-hzgy-pyv
-
+MECHANICAL DESIGN
