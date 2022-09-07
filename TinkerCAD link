@@ -33,3 +33,5 @@ MECHANICAL DESIGN:
 The robot is built according to the dimensions mentioned in the problem statement. The IR sensors are attached on the upper corners. There is a platform approximately midway through the height of the robot on which the circuit elements (breadboard, arduinos, etc) are rested. 
 The motors for the wheels are attached independently (without an axle). For vacuum, a fan it also rested on the platform, while there is an elliptical hole towards the rear side of the platform from where dust will be collected.
 The mop is circular in nature with bristles attached to a circular metal ring, which is free to rotate. On the top of the robot body, three switches and two LCD screens are present which act as an user interface.
+
+Fusion 360 file:
